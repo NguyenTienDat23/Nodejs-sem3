@@ -1,0 +1,73 @@
+<h2>Apply for job</h2>
+<form action="/process-apply" method="post">
+    
+    <div>
+        <label for="">Name</label>
+        <input type="text" name="name" id="name">
+    </div>
+    <div>
+        <label for="">Email</label>
+        <input type="text" id="email" placeholder="abc123@email.com" name="email">
+    </div>
+    <div>
+        <label for="">Message</label>
+        <input type="text" id="message" placeholder="Message sent to the employer" name="message">
+    </div>
+    <div>
+        <label for="">Upload CV</label>
+        <input type="file" name="" id="file">
+
+    </div>
+    <div>
+        <button type="submit">Send</button>
+    </div>
+    
+</form>
+<a href="/" id="back">Back Home</a>
+<style>
+    div
+     {
+        margin-top: 20px;
+        padding: 15px 32px;
+        font-weight: bold;
+        
+    }
+    form {
+        width: 700px;
+        border: 1px solid black;
+    }
+    #name {
+        width: 400px;
+        margin-left: 60px;
+    }
+    #file {
+        margin-left: 50px;
+    }
+    #email {
+        width: 400px;
+        margin-left: 30px;
+    }
+    #message {
+        margin-left: 70px;
+        height: 100px;
+        width: 400px;
+    }
+    button {
+        background-color: #5c4caf;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+    }
+
+    button:hover {
+        background-color: #4CAF50;
+        /* Green */
+        color: white;
+    }
+</style>
